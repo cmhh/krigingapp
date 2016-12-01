@@ -16,5 +16,5 @@ The app has a number of dependencies besides `shiny`:
 To run a version locally:
 
 ```r
-shiny::runGitHub("cmhh", "krigingapp")
+shiny::runGitHub("cmhh/krigingapp")
 ```
