@@ -1,0 +1,10 @@
+name: krigingapp
+account: cmhh
+server: shinyapps.io
+appId: 102462
+bundleId: 453484
+url: https://cmhh.shinyapps.io/krigingapp/
+when: 1463433620.87725
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: R/simplify.R
