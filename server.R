@@ -5,7 +5,8 @@ shinyServer(function(input, output, session){
    output$map <- renderLeaflet({
       leaflet() %>% addTiles(urlTemplate="//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png") %>%
          fitBounds(lng1=166.42615, lat1=-47.28999, lng2=178.57724, lat2=-34.39263) %>%
-         addLayersControl(overlayGroups=c("raster"), position="topleft")
+         addLayersControl(overlayGroups=c("raster"), position="topleft",
+                          options = layersControlOptions(collapsed = FALSE))
    })
 
    observe({
